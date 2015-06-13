@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color:slateblue}
+</style>
+</head>
+<body>
+<head>
+<style type="text/css">
+h1.custom {
+    color: #F8F8FF;
+    font-size: 70px;
+    }
+</style>
+</head>
+<head>
+<style type="text/css">
+h2.custom {
+    color: #F8F8FF;
+    font-size: 20px;
+    }
+</style>
+</head>
+</html>
+
+<h1 class="custom text-center">ScoreBoard</h1>
+
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th><h2 class="custom text-center">Rank</h2></th>
+      <th><h2 class="custom text-center">Player</h2></th>
+      <th><h2 class="custom text-center">Score</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+</tr>
+    <tr class="info text-center">
+      <td><%= @rank %></td>
+      <td><%= @players %></td>
+      <td><%= @score%></td>
+    </tr>
+ </tbody>
+</table>

@@ -1,0 +1,129 @@
+
+<div class="panel panel-body">
+<html>
+<head>
+<style type="text/css">
+h1.custom {
+    color: #6699FF;
+    font-size: 70px;
+    }
+</style>
+</head>
+
+
+    <head>
+    <style type="text/css">
+
+    h2.custom {
+    color: #6699FF;
+    font-size: 30px;
+
+}
+</style>
+</head>
+
+<head>
+    <style type="text/css">
+
+    h3.custom {
+    color: #6699FF;
+    font-size: 20px;
+    }
+
+</style>
+</head>
+
+
+
+<div class="container">
+<div class="jumbotron">
+<h1 class="custom text-center">Welcome to cStyle</h1>
+<h2 class="custom text-center">cStyle Bracelets are coming soon. Get ready by learning how to code them now!</h2>
+
+</html>
+
+   </div>
+</div>
+   </div>
+</div>
+<div class="container">
+<h1 class="custom">Learn</h1>
+<h2 class="custom">
+   PinkThink has created our own easy to learn programming language called Codeable Style (cStyle). Visit our basics page to learn more and then check out sample codes for every skill level.</h2>
+   </div>
+<div class="container">
+  <div class="row">
+  <div class="col-xs-6 col-sm-3">
+   <a href="/learn/basics">
+ <img style="height: 200px; width: 300px; margin: 20px 0px 20px 10px;"src="/images/basics.png"> </a>
+   </div>
+   <div class="col-xs-6 col-sm-3">
+<a href="/learn/beginner_code">
+ <img style="height: 200px; width: 300px; margin: 20px 80px  30px 0px;"src="/images/beginner code.png"> </a>
+  </div>
+  <div class="col-xs-6 col-sm-3">
+   <a href="/learn/intermediate_code">
+ <img style="height: 200px; width: 300px; margin: 20px 80px  30px 0px;"src="/images/intermediate code.png"> </a>
+  </div>
+ <div class="col-xs-6 col-sm-3">
+   <a href="/learn/advance_code">
+ <img style="height: 200px; width: 300px; margin: 20px 80px  30px 0px;"src="/images/advanced code.png"> </a></div>
+  </div>
+</div>
+  </div>
+ </div>
+</div>
+</div>
+
+
+
+<div class="container">
+<h1 class="custom text center">Play</h1>
+<h2 class="custom">
+   Test your coding chops with this fun game. Level up on your own or play against your friends.See <a href="/game/play_rules/">game rules</a> </h2>
+   </div>
+<div class="container">
+  <div class="row">
+
+   <a href="/game/play_beginner">
+ <img style="height: 220px; width: 500px; margin: 6px 0 0
+ px 70px;"src="/images/play beginner.png"> </a>
+
+
+   <a href="/game/play_intermediate">
+ <img style="height: 220px; width: 500px; margin: 60px 0 0 30px;"src="/images/play intermediate.png"> </a>
+  </div>
+   </div>
+
+   <a href="/game/play_advance">
+ <img style="height: 22
+ 0px; width: 500px; margin: 20px 20px 20px 80px; "src="/images/play advanced.png"> </a>
+
+
+      <a href="/score/scoreboard" class="btn btn-primary btn-lg"> Don’t forget to check the scoreboard for the coder to beat!</a></div>
+ </div>
+  </div>
+   </div>
+    </div>
+     </div>
+
+ </div>
+
+
+</div>
+</div>
+  </div>
+
+<footer>
+   <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <p>Copyright &copy; Your Website 2014</p>
+         </div>
+      </div>
+       <!-- /.row -->
+   </div>
+  <!-- /.container -->
+</footer>
+</div>
+
