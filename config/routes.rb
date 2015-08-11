@@ -1,7 +1,22 @@
 Rails.application.routes.draw do
-
+  # Routes for the Interlevel resource:
       devise_for :users
 root 'home#index'
+
+  # CREATE
+  get "/interlevels/new", :controller => "interlevels", :action => "new"
+  post "/create_interlevel", :controller => "interlevels", :action => "create"
+
+  # READ
+  get "/interlevels", :controller => "interlevels", :action => "index"
+  get "/interlevels/:id", :controller => "interlevels", :action => "show"
+
+  # UPDATE
+  get "/interlevels/:id/edit", :controller => "interlevels", :action => "edit"
+  post "/update_interlevel/:id", :controller => "interlevels", :action => "update"
+
+  # DELETE
+  get "/delete_interlevel/:id", :controller => "interlevels", :action => "destroy"
 
 
 # Routes for the User resource:
@@ -20,8 +35,54 @@ root 'home#index'
   # DELETE
   get "/delete_user/:id", :controller => "users", :action => "destroy"
 
+  # Routes for the Point resource:
+  # CREATE
+  get "/points/new", :controller => "points", :action => "new"
+  post "/create_point", :controller => "points", :action => "create"
 
+  # READ
+  get "/points", :controller => "points", :action => "index"
+  get "/points/:id", :controller => "points", :action => "show"
 
+  # UPDATE
+  get "/points/:id/edit", :controller => "points", :action => "edit"
+  post "/update_point/:id", :controller => "points", :action => "update"
+
+  # DELETE
+  get "/delete_point/:id", :controller => "points", :action => "destroy"
+  #------------------------------
+
+  # Routes for the Score resource:
+  # CREATE
+  get "/scores/new", :controller => "scores", :action => "new"
+  post "/create_score", :controller => "scores", :action => "create"
+
+  # READ
+  get "/scores", :controller => "scores", :action => "index"
+  get "/scores/:id", :controller => "scores", :action => "show"
+
+  # UPDATE
+  get "/scores/:id/edit", :controller => "scores", :action => "edit"
+  post "/update_score/:id", :controller => "scores", :action => "update"
+
+  # DELETE
+  get "/delete_score/:id", :controller => "scores", :action => "destroy"
+
+  # Routes for the Player resource:
+  # CREATE
+  get "/players/new", :controller => "players", :action => "new"
+  post "/create_player", :controller => "players", :action => "create"
+
+  # READ
+  get "/players", :controller => "players", :action => "index"
+  get "/players/:id", :controller => "players", :action => "show"
+
+  # UPDATE
+  get "/players/:id/edit", :controller => "players", :action => "edit"
+  post "/update_player/:id", :controller => "players", :action => "update"
+
+  # DELETE
+  get "/delete_player/:id", :controller => "players", :action => "destroy"
   #------------------------------
 
 get('/learn/basics', { :controller => 'learn', :action => 'basics' })
